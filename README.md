@@ -23,7 +23,7 @@ A modern, feature-rich text search and replace tool built with Angular. This app
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/find-replace-tool.git
+git clone https://github.com/vanshaj810/find-replace-tool.git
 ```
 
 2. Navigate to project directory:
