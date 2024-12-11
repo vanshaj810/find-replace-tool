@@ -1,59 +1,93 @@
-# FindReplaceTool
+# Advanced Find & Replace Tool
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+A modern, feature-rich text search and replace tool built with Angular. This application provides an intuitive interface for searching and replacing text with support for regular expressions and case sensitivity.
 
-## Development server
+## 🚀 Features
 
-To start a local development server, run:
+- **Real-time Search**: Instantly see matches as you type
+- **Case Sensitivity**: Toggle case-sensitive search
+- **Regular Expressions**: Advanced pattern matching
+- **Keyboard Shortcuts**: Quick access to common functions
+- **Dark/Light Theme**: Comfortable viewing in any environment
+- **Responsive Design**: Works on desktop and mobile devices
 
+### 🎯 Key Functions
+- Find text with instant highlighting
+- Replace all occurrences at once
+- RegEx pattern matching
+- Case-sensitive/insensitive search
+- Word count and character statistics
+
+
+## 🛠️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/find-replace-tool.git
+```
+
+2. Navigate to project directory:
+```bash
+cd find-replace-tool
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+5. Open your browser and navigate to:
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 💻 Technologies Used
 
-```bash
-ng generate --help
-```
+- Angular 17+
+- TypeScript
+- RxJS
+- Angular Animations
+- Material Icons
 
-## Building
 
-To build the project run:
 
-```bash
-ng build
-```
+## 📝 Features in this project
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### Basic Search
+1. Enter text in the editor
+2. Type search term in "Find" field
+3. Results highlight automatically
 
-## Running unit tests
+### Regular Expression Search
+1. Enable "Use Regex" checkbox
+2. Enter pattern (e.g., `\d+` for numbers)
+3. Matching patterns will highlight
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Case Sensitive Search
+1. Enable "Case Sensitive" checkbox
+2. Enter search term
+3. Only exact case matches will highlight
 
-```bash
-ng test
-```
+### Replace Operation
+1. Enter search term
+2. Enter replacement text
+3. Click "Replace All" to perform replacement
 
-## Running end-to-end tests
+## 🎨 Theme Customization
 
-For end-to-end (e2e) testing, run:
+Toggle between light and dark themes using the theme button in the toolbar.
 
-```bash
-ng e2e
-```
+## 📱 Responsive Design
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+The application is fully responsive and works on:
+- Desktop browsers
+- Tablets
+- Mobile devices
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Made with ❤️ using Angular
